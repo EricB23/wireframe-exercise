@@ -1,0 +1,76 @@
+h1 {
+  background-color: white;
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  width: auto;
+}
+
+img[alt='Hero Image'] {
+  width: 960px;
+  height: 460 px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+body ul {
+  gap: 30px;
+  width: auto;
+}
+
+header {
+  width: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  align-items: center;
+}
+
+.textAndClick {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.bannerSection {
+  display: flex;
+  gap: 20px;
+}
+
+p {
+  overflow: scroll;
+  width: auto;
+  font-size: 20px;
+  height: auto;
+}
+
+footer {
+  width: auto;
+}
+
+.callToClick {
+  border-radius: 10px;
+  border-width: 1px;
+  width: auto;
+  height: 50px;
+  background-color: white;
+}
